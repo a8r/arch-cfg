@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#setxkbmap -layout gb,ru
+## list of all options: /usr/share/X11/xkb/rules/base.lst
+#setxkbmap -option 'grp:caps_toggle'
+
+## print current options:
+# setxkbmap -print -verbose 10
+
+## set defaults for x:
+## creates a file /etc/X11/xorg.conf.d/00-keyboard.conf
+localectl --no-convert set-x11-keymap gb,ru pc105 extd grp:caps_toggle

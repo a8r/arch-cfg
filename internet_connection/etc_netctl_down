@@ -1,0 +1,11 @@
+Description='Automatically generated profile by wifi-menu'
+Interface=wlp13s0b1
+Connection=wireless
+Security=wpa
+# ESSID=# deleted #
+IP=dhcp
+# Key= #deleted#
+WPAConfigSection=(
+    'priority=1'
+)
+

@@ -1,0 +1,4 @@
+#!/bin/sh
+ExecUpPost="systemctl stop netctl-auto@wlp13s0b1.service"
+ExecDownPre="systemctl start netctl-auto@wlp13s0b1.service"
+

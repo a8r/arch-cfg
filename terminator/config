@@ -1,0 +1,22 @@
+[global_config]
+	title_transmit_bg_color = "#216022"
+[keybindings]
+	[layouts]
+		[[default]]
+			[[[child1]]]
+				parent = window0
+				type = Terminal
+		[[[window0]]]
+			parent = ""
+			type = Window
+[plugins]
+[profiles]
+	[[default]]
+		font = Fixed 10
+		#background_color = "#ecffe0"
+		background_color = "#f6fff0"
+#f7fffa
+		foreground_color = "#060f05"
+		#foreground_color = "#0a1909"
+             
+
