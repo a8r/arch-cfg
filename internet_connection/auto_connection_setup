@@ -1,2 +1,13 @@
 http://wiki.archlinux.org/index.php/netctl#Automatic_switching_of_profiles
 
+1) auto-enable eth0 when the cable is plugged in:
+systemctl enable netctl-ifplugd@eno1.service
+
+2) automatically connect to wifi if it's in the range
+sudo vim /etc/netctl/down
+sudo vim /etc/netctl/up
+sudo systemctl enable netctl-auto@wlp13s0b1.service
+
+3) disable wifi when eth0 is available
+sudo vim /etc/netctl/interfaces/eth0
+

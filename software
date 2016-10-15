@@ -1,0 +1,45 @@
+# Laptop touchpad
+xf86-input-synaptics
+
+# citrix
+# Pass next keystroke to linux: Ctrl+F2
+icaclient
+
+# drawing
+gimp
+krita
+pinta
+
+# js ide
+lighttable
+sublime
+brackets
+eclipse/aptana
+
+# cdburn
+acetoneiso2
+k3b
+
+# filemanager
+thunar
+ranger
+udiskie --tray # automount cd/usb
+
+# wifi:
+sudo wifi-menu -o
+
+# browser
+firefox
+vivaldi && vivaldi-ffmpeg-codecs # video codecs
+
+# video
+vlc
+smplayer
+
+# music
+deadbeef
+
+# system:
+terminator
+rofi
+
